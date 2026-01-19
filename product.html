@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bempet | BSF Products Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <!--<a href="index.html" class="logo">
+                    <i class="fas fa-leaf logo-icon"></i>
+                    <span>BEMPET</span>
+                </a>-->
+                <a href="index.html" class="logo"><img src="Img/logo.png" alt="logo" width="70" height="60"> <span>Bempet</span></a>
+
+                <button class="mobile-toggle" id="mobileToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <ul class="nav-links">
+                    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="index.html#mission"><i class="fas fa-bug"></i> Solutions</a></li>
+                    <li><a href="service.html"><i class="fas fa-cogs"></i> Service</a></li>
+                    <li><a href="product.html" class="active"><i class="fas fa-store"></i> Products</a></li>
+                    <li><a href="index.html#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+
+                <div class="nav-actions">
+                    <!--<button class="btn btn-outline"><i class="fas fa-shopping-cart"></i> Cart (0)</button>-->
+                    <!--<button class="btn btn-primary"><i class="fas fa-user"></i> Account</button>-->
+                    <button class="btn btn-primary"><i class="fas fa-handshake"></i> Partner</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Products Hero -->
+    <section class="products-hero">
+        <div class="container">
+            <h1>Premium Black Soldier Fly Products</h1>
+            <p>High-quality BSF larvae, breeding equipment, and organic fertilizers for sustainable farming across Africa. Delivery available to all African countries.</p>
+            <div style="margin-top: 25px;">
+                <button class="btn btn-primary" style="font-size: 15px; padding: 12px 28px;">
+                    <i class="fas fa-shipping-fast"></i> View Delivery Info
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section">
+        <div class="container">
+            <div class="section-subtitle">
+                <i class="fas fa-shopping-bag"></i>
+                <span>Our Products</span>
+            </div>
+            
+            <h2 class="section-title">Shop <span>BSF Products</span></h2>
+            
+            <p class="section-description">
+                Browse our comprehensive range of black soldier fly products. From live larvae to breeding equipment 
+                and organic fertilizers, we have everything you need for sustainable farming.
+            </p>
+            
+            <!-- Products Filter -->
+            <div class="products-filter">
+                <button class="filter-btn active" data-filter="all">All Products</button>
+                <button class="filter-btn" data-filter="larvae">Live Larvae</button>
+                <button class="filter-btn" data-filter="breeding">Breeding</button>
+                <button class="filter-btn" data-filter="equipment">Equipment</button>
+                <button class="filter-btn" data-filter="fertilizer">Fertilizers</button>
+            </div>
+            
+            <!-- Products Grid -->
+            <div class="products-grid">
+                <!-- Product 1: Dried BSF Larvae -->
+                <div class="product-card" data-category="larvae">
+                    <div class="product-badge">MOST POPULAR</div>
+                    <div class="product-image">
+                        <img src="" alt="Dried BSF Larvae">
+                        <div class="product-overlay"></div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">LIVESTOCK FEED</span>
+                        <h3 class="product-title">Dried BSF Larvae</h3>
+                        <p class="product-description">High-protein dried black soldier fly larvae. Perfect for poultry, fish, and pig feed. Long shelf life and easy storage.</p>
+                        
+                        <div class="product-pricing">
+                            <div class="price-main">
+                                <span class="price-currency">₦</span>5,000<span style="font-size: 16px;">/kg</span>
+                            </div>
+                            <div class="price-conversion">≈ $4 USD per kg</div>
+                            <div class="min-order">
+                                <i class="fas fa-exclamation-circle"></i>
+                                Minimum order: 5kg
+                            </div>
+                        </div>
+                        
+                        <div class="product-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>65% Protein Content</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>6-12 Month Shelf Life</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Vacuum Sealed Packaging</span>
+                            </div>
+                        </div>
+                        
+                        <div class="product-footer">
+                            <button class="btn-product btn-product-primary">
+                                <i class="fas fa-cart-plus"></i>
+                                Order 
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 2: Fresh BSF Larvae -->
+                <div class="product-card" data-category="larvae">
+                    <div class="product-image">
+                        <img src="" alt="Fresh BSF Larvae">
+                        <div class="product-overlay"></div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">LIVE FEED</span>
+                        <h3 class="product-title">Fresh BSF Larvae</h3>
+                        <p class="product-description">Live, high-quality black soldier fly larvae. Perfect for immediate feeding to poultry, fish, and other livestock.</p>
+                        
+                        <div class="product-pricing">
+                            <div class="price-main">
+                                <span class="price-currency">₦</span>1,500<span style="font-size: 16px;">/kg</span>
+                            </div>
+                            <div class="price-conversion">≈ $1 USD per kg</div>
+                            <div class="min-order">
+                                <i class="fas fa-exclamation-circle"></i>
+                                Minimum order: 50kg
+                            </div>
+                        </div>
+                        
+                        <div class="product-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Live & Active Larvae</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>High Protein Content</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Fast Delivery Guaranteed</span>
+                            </div>
+                        </div>
+                        
+                        <div class="product-footer">
+                            <button class="btn-product btn-product-primary">
+                                <i class="fas fa-cart-plus"></i>
+                                Order Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 3: BSF Neonates -->
+                <div class="product-card" data-category="breeding">
+                    <div class="product-badge best-seller">BREEDING</div>
+                    <div class="product-image">
+                        <img src="" alt="BSF Neonates">
+                        <div class="product-overlay"></div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">BREEDING STOCK</span>
+                        <h3 class="product-title">BSF Neonates</h3>
+                        <p class="product-description">Young BSF larvae for starting your own colony. Perfect for farmers looking to establish sustainable breeding operations.</p>
+                        
+                        <div class="product-pricing">
+                            <div class="price-main">
+                                <span class="price-currency">₦</span>25,000<span style="font-size: 16px;">/kg</span>
+                            </div>
+                            <div class="price-conversion">≈ $17 USD per kg</div>
+                        </div>
+                        
+                        <div class="product-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Healthy Starter Colony</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Fast Growth Rate</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Breeding Instructions Included</span>
+                            </div>
+                        </div>
+                        
+                        <!--<div class="product-footer">
+                            <button class="btn-product btn-product-secondary">
+                                <i class="fas fa-info-circle"></i>
+                                Learn More
+                            </button>
+                        </div>-->
+                        <div class="product-footer">
+                            <button class="btn-product btn-product-primary">
+                                <i class="fas fa-cart-plus"></i>
+                                Order Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 4: BSF Eggs -->
+                <div class="product-card" data-category="breeding">
+                    <div class="product-image">
+                        <img src="" alt="BSF Eggs">
+                        <div class="product-overlay"></div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">BREEDING</span>
+                        <h3 class="product-title">BSF Eggs</h3>
+                        <p class="product-description">Fertilized black soldier fly eggs for starting your colony from scratch. High hatch rate guaranteed.</p>
+                        
+                        <div class="product-pricing">
+                            <div class="price-main">
+                                <span class="price-currency">₦</span>1,000<span style="font-size: 16px;">/gram</span>
+                            </div>
+                            <div class="price-conversion">≈ $1 USD per gram</div>
+                            <div class="min-order">
+                                <i class="fas fa-exclamation-circle"></i>
+                                Minimum order: 25 grams
+                            </div>
+                        </div>
+                        
+                        <div class="product-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>85%+ Hatch Rate</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Carefully Collected</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Hatching Guide Included</span>
+                            </div>
+                        </div>
+                        
+                        <div class="product-footer">
+                            <button class="btn-product btn-product-primary">
+                                <i class="fas fa-cart-plus"></i>
+                                Order Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 5: BSF Parent Stock -->
+                <div class="product-card" data-category="breeding">
+                    <div class="product-image">
+                        <img src="" alt="BSF Parent Stock">
+                        <div class="product-overlay"></div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">BREEDING STOCK</span>
+                        <h3 class="product-title">BSF Parent Stock/Pre-Pupae</h3>
+                        <p class="product-description">Mature BSF pre-pupae for establishing breeding colonies. Ready to pupate and produce eggs.</p>
+                        
+                        <div class="product-pricing">
+                            <div class="price-main">
+                                <span class="price-currency">₦</span>6,500<span style="font-size: 16px;">/kg</span>
+                            </div>
+                            <div class="price-conversion">≈ $5 USD per kg</div>
+                            <div class="min-order">
+                                <i class="fas fa-exclamation-circle"></i>
+                                Minimum order: 3kg
+                            </div>
+                        </div>
+                        
+                        <div class="product-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Mature Pre-Pupae</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>High Breeding Potential</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Free Bag Packaging</span>
+                            </div>
+                        </div>
+                        
+                        <div class="product-footer">
+                            <button class="btn-product btn-product-primary">
+                                <i class="fas fa-cart-plus"></i>
+                                Order Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 6: BSF Breeding Net -->
+                <div class="product-card" data-category="equipment">
+                    <div class="product-image">
+                        <img src="" alt="BSF Breeding Net">
+                        <div class="product-overlay"></div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">BREEDING EQUIPMENT</span>
+                        <h3 class="product-title">BSF Breeding Love Net (4x5ft)</h3>
+                        <p class="product-description">Durable breeding net for establishing BSF colonies. Perfect for controlled breeding environments.</p>
+                        
+                        <div class="product-pricing">
+                            <div class="price-main">
+                                <span class="price-currency">₦</span>15,000
+                            </div>
+                            <div class="price-conversion">≈ $10 USD</div>
+                            <div class="min-order">
+                                <i class="fas fa-box"></i>
+                                Capacity: 5kg pre-pupae
+                            </div>
+                        </div>
+                        
+                        <div class="product-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>UV-Resistant Material</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Fine Mesh Design</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Easy Setup & Cleaning</span>
+                            </div>
+                        </div>
+                        
+                        <div class="product-footer">
+                            <button class="btn-product btn-product-primary">
+                                <i class="fas fa-cart-plus"></i>
+                                Order Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 7: BSF Substrate -->
+                <div class="product-card" data-category="equipment">
+                    <div class="product-image">
+                        <img src="" alt="BSF Substrate">
+                        <div class="product-overlay"></div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">FEED MATERIAL</span>
+                        <h3 class="product-title">BSF Larva Production Substrate</h3>
+                        <p class="product-description">Organic waste substrate specially formulated for optimal BSF larvae growth and development.</p>
+                        
+                        <div class="product-pricing">
+                            <div class="price-main">
+                                <span class="price-currency">₦</span>7,550<span style="font-size: 16px;">/25kg</span>
+                            </div>
+                            <div class="price-conversion">≈ $5 USD per 25kg bag</div>
+                        </div>
+                        
+                        <div class="product-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Nutrient-Rich Formula</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>25kg Heavy-Duty Bag</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Optimal Moisture Content</span>
+                            </div>
+                        </div>
+                        
+                        <div class="product-footer">
+                            <button class="btn-product btn-product-primary">
+                                <i class="fas fa-cart-plus"></i>
+                                Order Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 8: BSF Egg Traps -->
+                <div class="product-card" data-category="equipment">
+                    <div class="product-image">
+                        <img src="" alt="BSF Egg Traps">
+                        <div class="product-overlay"></div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">BREEDING EQUIPMENT</span>
+                        <h3 class="product-title">BSF Egg Traps (3 Bundles)</h3>
+                        <p class="product-description">Specially designed traps for collecting black soldier fly eggs. Essential for breeding operations.</p>
+                        
+                        <div class="product-pricing">
+                            <div class="price-main">
+                                <span class="price-currency">₦</span>9,000
+                            </div>
+                            <div class="price-conversion">≈ $6 USD for 3 bundles</div>
+                        </div>
+                        
+                        <div class="product-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>3 Complete Bundles</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Easy Egg Collection</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Reusable Design</span>
+                            </div>
+                        </div>
+                        
+                        <div class="product-footer">
+                            <button class="btn-product btn-product-primary">
+                                <i class="fas fa-cart-plus"></i>
+                                Order Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 9: BSF Frass -->
+                <div class="product-card" data-category="fertilizer">
+                    <div class="product-badge">ORGANIC</div>
+                    <div class="product-image">
+                        <img src="" alt="BSF Frass Fertilizer">
+                        <div class="product-overlay"></div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">ORGANIC FERTILIZER</span>
+                        <h3 class="product-title">Black Soldier Fly Frass</h3>
+                        <p class="product-description">Nutrient-rich organic fertilizer from BSF larvae waste. Perfect for crops, gardens, and organic farming.</p>
+                        
+                        <div class="product-pricing">
+                            <div class="price-main">
+                                <span class="price-currency">₦</span>3,500<span style="font-size: 16px;">/20kg</span>
+                            </div>
+                            <div class="price-conversion">≈ $3 USD per 20kg bag</div>
+                        </div>
+                        
+                        <div class="product-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>NPK Rich Formula</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Improves Soil Structure</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Safe for Organic Farming</span>
+                            </div>
+                        </div>
+                        
+                        <div class="product-footer">
+                            <button class="btn-product btn-product-primary">
+                                <i class="fas fa-cart-plus"></i>
+                                Order Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 10: BSF Breeding Crate -->
+                <div class="product-card" data-category="equipment">
+                    <div class="product-image">
+                        <img src="" alt="BSF Breeding Crate">
+                        <div class="product-overlay"></div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">BREEDING EQUIPMENT</span>
+                        <h3 class="product-title">BSF Breeding Crate</h3>
+                        <p class="product-description">Durable plastic crate (58x38cm) for BSF breeding and larvae rearing. Perfect for small to medium operations.</p>
+                        
+                        <div class="product-pricing">
+                            <div class="price-main">
+                                <span class="price-currency">₦</span>8,850
+                            </div>
+                            <div class="price-conversion">≈ $6 USD per crate</div>
+                        </div>
+                        
+                        <div class="product-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Size: 58x38cm</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Food-Grade Plastic</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Stackable Design</span>
+                            </div>
+                        </div>
+                        
+                        <div class="product-footer">
+                            <button class="btn-product btn-product-primary">
+                                <i class="fas fa-cart-plus"></i>
+                                Order Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packaging Options -->
+    <section class="packaging-section">
+        <div class="container">
+            <div class="section-subtitle">
+                <i class="fas fa-box"></i>
+                <span>Packaging Options</span>
+            </div>
+            
+            <h2 class="section-title">Choose Your <span>Packaging</span></h2>
+            
+            <div class="packaging-options">
+                <div class="packaging-option">
+                    <div class="packaging-icon">
+                        <i class="fas fa-box-open"></i>
+                    </div>
+                    <h4>Standard Bag Packaging</h4>
+                    <p>Free heavy-duty bag packaging for all pre-pupae orders. Secure and breathable for safe transport.</p>
+                    <div class="packaging-price">FREE</div>
+                </div>
+                
+                <div class="packaging-option">
+                    <div class="packaging-icon">
+                        <i class="fas fa-boxes"></i>
+                    </div>
+                    <h4>Container Packaging</h4>
+                    <p>Premium plastic containers for added protection during transport. Perfect for delicate orders.</p>
+                    <div class="packaging-price">₦3,500</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Delivery Info Section -->
+    <section class="delivery-section">
+        <div class="container">
+            <div class="delivery-grid">
+                <div class="delivery-image">
+                    <img src="" alt="Delivery across Africa">
+                </div>
+                
+                <div class="delivery-info">
+                    <h3>Delivery Across Africa</h3>
+                    <p>We deliver our premium BSF products to all African countries. Fast, reliable shipping with tracking.</p>
+                    
+                    <ul class="delivery-list">
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span><strong>Delivery to All African Countries</strong> - Direct delivery available</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span><strong>Fast Processing</strong> - 3-5 business days processing time</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span><strong>Order Validation</strong> - Payment confirms and validates your order</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span><strong>Secure Packaging</strong> - Products carefully packed for safe delivery</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span><strong>Tracking Available</strong> - Monitor your order in real-time</span>
+                        </li>
+                    </ul>
+                    
+                    <div class="delivery-note">
+                        <h4><i class="fas fa-exclamation-circle"></i> Important Notice</h4>
+                        <p>Payment validates the order. We process and deliver orders between 3-5 business days after payment confirmation. Delivery times may vary based on location.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Process -->
+    <section class="order-section">
+        <div class="container">
+            <div class="section-subtitle">
+                <i class="fas fa-shopping-cart"></i>
+                <span>How to Order</span>
+            </div>
+            
+            <h2 class="section-title">Simple <span>Order Process</span></h2>
+            
+            <div class="order-steps">
+                <div class="order-step">
+                    <div class="step-number">1</div>
+                    <h4>Browse Products</h4>
+                    <p>Select from our range of BSF products. Add items to your cart with desired quantities.</p>
+                </div>
+                
+                <div class="order-step">
+                    <div class="step-number">2</div>
+                    <h4>Checkout</h4>
+                    <p>Proceed to checkout, enter your delivery details, and select preferred packaging option.</p>
+                </div>
+                
+                <div class="order-step">
+                    <div class="step-number">3</div>
+                    <h4>Make Payment</h4>
+                    <p>Complete payment to validate your order. We accept bank transfers and online payments.</p>
+                </div>
+                
+                <div class="order-step">
+                    <div class="step-number">4</div>
+                    <h4>Receive Delivery</h4>
+                    <p>We process within 3-5 days and deliver directly to your location across Africa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <div class="container">
+        <div class="cta-banner">
+            <h3>Ready to Order?</h3>
+            <p>Join thousands of farmers across Africa who have transformed their operations with our premium BSF products. Sustainable, high-quality solutions delivered to your door.</p>
+            <button class="btn btn-primary">
+                <i class="fas fa-phone-alt"></i> Contact Sales Team
+            </button>
+            <button class="btn btn-outline" style="background: rgba(255, 255, 255, 0.1); color: white; border-color: white; margin-left: 15px;">
+                <i class="fas fa-question-circle"></i> Need Help?
+            </button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <a href="index.html" class="footer-logo">
+                        <i class="fas fa-leaf"></i>
+                        <span>Bempet</span>
+                    </a>
+                    <div class="footer-about">
+                        <p>Leading supplier of premium black soldier fly products across Africa. Sustainable solutions for modern farming.</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Product Categories</h3>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Live Larvae</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Breeding Stock</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Equipment</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Organic Fertilizers</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> All Products</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="index.html#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="packages.html"><i class="fas fa-chevron-right"></i> Training Packages</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Products</a></li>
+                        <li><a href="index.html#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>40 Unity Crescent, Ipaaja, Lagos, Nigeria</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+234 (0) 812 345 6789</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>sales@bempet-bsf.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Mon - Sat: 8:00 AM - 6:00 PM</span>
+                        </div>
+                    </div>
+                    <div class="newsletter">
+                        <div class="newsletter-form">
+                            <input type="email" class="newsletter-input" placeholder="Your email address">
+                            <button class="newsletter-btn">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Bempet BSF Products. All rights reserved.</p>
+                <div class="footer-links-bottom">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Shipping Policy</a>
+                    <a href="#">Refund Policy</a>
+                </div>
+                <p style="margin-top: 12px; font-size: 12px; opacity: 0.8;">DELIVERY ACROSS ALL AFRICAN COUNTRIES | 3-5 DAY PROCESSING TIME</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="product.js"></script>
+</body>
+</html>
